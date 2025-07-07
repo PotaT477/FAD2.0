@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Для алинки дог</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floating-hearts"></div>
+  <div class="page-wrapper">
+
+    <div class="pin-container">
+      <h1>Введите пин-код</h1>
+      <input id="pin-input" type="password" maxlength="6" readonly placeholder="••••••••" />
+      <div class="buttons">
+        <button class="btn" data-digit="1">1</button>
+        <button class="btn" data-digit="2">2</button>
+        <button class="btn" data-digit="3">3</button>
+        <button class="btn" data-digit="4">4</button>
+        <button class="btn" data-digit="5">5</button>
+        <button class="btn" data-digit="6">6</button>
+        <button class="btn" data-digit="7">7</button>
+        <button class="btn" data-digit="8">8</button>
+        <button class="btn" data-digit="9">9</button>
+        <div></div>
+        <button class="btn" data-digit="0">0</button>
+        <button class="btn btn-clear">Очистить</button>
+      </div>
+      <div class="message" id="message"></div>
+    </div>
+  </div>
+  <script src="animation.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
